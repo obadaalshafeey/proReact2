@@ -1,0 +1,70 @@
+#regForm{
+    padding-top: 10vh;
+    width: 25%;
+    /* margin-left: 600px; */
+    margin: auto;
+}
+.forms{
+/* background-image: url(https://play-lh.googleusercontent.com/Ip_LzDVSk0AuWeJqJJC6qmcH9jl31FIdfsvl3AcG-lxJNu0R0nqyhTZF1-9izOvEdQ=w526-h296-rw) ; */
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.form2{
+
+    box-sizing: border-box;
+}
+
+.d{
+
+opacity: 1.2;
+
+}
+
+.BTNcontainer { 
+    height: 5vh;
+    position: relative;
+  }
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+#regBtn{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+#regP{
+    text-align: center;
+    margin-top: 2vh;
+}
+#regP a{
+    color: #E84D0C;
+    font-weight: bold;
+}
+
+@media (max-width: 650px) {
+    .regForm {
+        width: 200%!important;
+    }
+    #regForm{
+        margin-left: 15vh;
+    }
+    #regForm h1{
+        font-size: 1.5rem;
+        width: 150%;
+    }
+    #regBtn{
+        width: 150%;
+    }
+    #regP{
+        width: 230%;
+    }
+}
